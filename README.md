@@ -1,5 +1,5 @@
 [kubeconform]: https://github.com/yannh/kubeconform
-[test-badge]: https://github.com/tvcsantos/kubeconform-reporter-action/actions/workflows/test.yml/badge.svg
+[test-badge]: https://github.com/mercedesbenzio/kubeconform-reporter-action/actions/workflows/test.yml/badge.svg
 
 # Kubeconform Reporter Action
 
@@ -73,7 +73,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Do Kubeconform report
-        uses: tvcsantos/kubeconform-reporter-action@v2
+        uses: mercedesbenzio/kubeconform-reporter-action@v2
         with:
           file: /path/to/kubeconform/results/file.json
 ```

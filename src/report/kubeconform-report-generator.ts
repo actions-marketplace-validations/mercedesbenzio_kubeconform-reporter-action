@@ -12,7 +12,7 @@ const HEADER_ALIGNMENT = (showFilename: boolean): string =>
   `${showFilename ? '|-' : ''}|-|-|-|-|`
 const FILE_ENCODING = 'utf-8'
 const SUCCESS_COMMENT =
-  '# :white_check_mark: All Kubernetes manifests are valid!'
+  '# :white_check_mark: Kubeconform - All Kubernetes manifests are valid!'
 const FAIL_COMMENT = '# :x: Invalid Kubernetes manifests found!'
 
 export class KubeconformReportGenerator implements ReportGenerator {

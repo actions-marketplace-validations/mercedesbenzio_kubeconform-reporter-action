@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tvcsantos/kubeconform-reporter-action.git"
+    "url": "git+https://github.com/mercedesbenzio/kubeconform-reporter-action.git"
   },
   "keywords": [
     "actions",
     "node",
     "setup"
   ],
-  "author": "tvcsantos",
+  "author": "mercedesbenzio",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.10.0",
